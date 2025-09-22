@@ -8,8 +8,6 @@ category: Study-Buddy
 
 Students often encounter a range of frustrations related to their classes, be it at high school level or university level. frustrations related to the learning process itself are the most impactful and demotivating for students. The core learning-related frustrations are illustrated below. 
 
-<div style="text-align: center;"> Main Problems faced by Students during their Learning Process </div>
-
 <div align="center">
   <img src="{{ site.baseurl }}/images/study-buddy/problems.png" alt="Learning-related problems faced by students">
 </div>
@@ -37,11 +35,15 @@ RAG (textual), LLM inference, prompting, automatic question generation
 
 ## Areas of Improvement
 
-  * Multi-modal RAG: Since most study materials contain valuable visual aids in the form of diagrams, images, tables and charts, incorporating multi-modal RAG would improve the quality of the context available to the LLM when generating answers and quiz questions, leading to more complete and accurate retrieval.
-  * Prompt refinement: Iterating on more effective prompt strategies could improve both retrieval quality and answer generation, ensuring outputs are more aligned with user expectations.
-  * Support for multiple study materials: Students often use several sources of information, such as lecture notes, their personal notes, textbooks, while studying. Thus, allowing the upload and merging of several files would provide more comprehensive context for the LLM on one hand, but on the other hand, more importantly, students would not have to cross-reference multiple sources of information manually. 
-  * Improvement of retrieval pipeline: Alternative retrieval algorithms could be tested and potentially a combination of methods can be used to enhance the relevance of retrieved information and strengthen the perdormance of the RAG pipeline.
-  * Improvement on question generation: To ensure that high-quality and pedagogically sound questions are being generated, the question generation process could be further improved with prompt engineering, fine-tuning, or evaluation mechanisms.
+  * **Multi-modal RAG** : Since most study materials contain valuable visual aids in the form of diagrams, images, tables and charts, incorporating multi-modal RAG would improve the quality of the context available to the LLM when generating answers and quiz questions, leading to more complete and accurate retrieval.
+  
+  * **Prompt refinement** : Iterating on more effective prompt strategies could improve both retrieval quality and answer generation, ensuring outputs are more aligned with user expectations.
+  
+  * **Support for multiple study materials**: Students often use several sources of information, such as lecture notes, their personal notes, textbooks, while studying. Thus, allowing the upload and merging of several files would provide more comprehensive context for the LLM on one hand, but on the other hand, more importantly, students would not have to cross-reference multiple sources of information manually. 
+  
+  * **Improvement of retrieval pipeline**: Alternative retrieval algorithms could be tested and potentially a combination of methods can be used to enhance the relevance of retrieved information and strengthen the perdormance of the RAG pipeline.
+  
+  * **Improvement on question generation**: To ensure that high-quality and pedagogically sound questions are being generated, the question generation process could be further improved with prompt engineering, fine-tuning, or evaluation mechanisms.
 
 
 
