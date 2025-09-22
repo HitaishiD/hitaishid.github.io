@@ -9,7 +9,7 @@ name: Hitaishi Dhoowooah
 description: MSc&T Data Science and AI for Business X-HEC
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: "{{ site.baseurl }}/images/logo.png"
+avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
 #
 # Flags below are optional
