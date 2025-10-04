@@ -1,0 +1,6 @@
+projects:
+  - name: "Study-Buddy"
+    image: "/images/study-buddy/webapp_diagram.png"
+
+  - name: "Lane-Segmentation"
+    image: "/images/lane_seg_recap.png"
