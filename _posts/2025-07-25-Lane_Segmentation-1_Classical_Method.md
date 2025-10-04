@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Part 1: Lane Segmentation with Classical Image Processing Techniques
+title: Part 1 Lane Segmentation with Classical Image Processing Techniques
 category: Lane-Segmentation
 ---
 
