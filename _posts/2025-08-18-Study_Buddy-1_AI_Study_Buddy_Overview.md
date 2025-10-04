@@ -26,12 +26,10 @@ The diagram below illustrates the AI Study Buddy from the user's perspective.
   <img src="{{ site.baseurl }}/images/study-buddy/webapp_diagram.png" alt="Webapp diagram">
 </div>
 
-Demo:
---
 
 ## Tools/Concepts used 
 
-RAG (textual), LLM inference, prompting, automatic question generation
+RAG (textual), LLM inference, prompting, automatic question generation...
 
 ## Areas of Improvement
 
