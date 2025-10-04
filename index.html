@@ -28,7 +28,7 @@ layout: default
   {% assign grouped = site.posts | group_by: "category" %}
   {% for group in grouped %}
     {% assign project = site.data.projects.projects | where: "name", group.name | first %}
-    <div class="project">
+    <div class="project" id="{{ group.name | slugify }}">
       <h2 class="project-title">{{ group.name | replace: "-", " " | capitalize }}</h2>
       <div class="project-content">
         {% if project.image %}
