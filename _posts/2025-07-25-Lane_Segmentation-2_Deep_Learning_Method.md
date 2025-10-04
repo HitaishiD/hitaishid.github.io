@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deep Learning Approach to Lane Segmentation
+title: Part 2: Deep Learning Approach to Lane Segmentation
 category: Lane-Segmentation
 ---
 
