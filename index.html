@@ -29,7 +29,11 @@ layout: default
   {% for group in grouped %}
     {% assign project = site.data.projects.projects | where: "name", group.name | first %}
     <div class="project" id="{{ group.name | slugify }}">
-      <h2 class="project-title">{{ group.name | replace: "-", " " | capitalize }}</h2>
+      <h2 class="project-title">
+        <a href="{{ site.url }}/#{{ group.name | slugify }}" class="project-link">
+          {{ group.name | replace: "-", " " | capitalize }}
+        </a>
+      </h2>
       <div class="project-content">
         {% if project.image %}
           <div class="project-image">
@@ -66,6 +70,16 @@ layout: default
   border-bottom: 2px solid #eee;
   padding-bottom: 0.3rem;
   color: #333;
+}
+
+.project-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-link:hover {
+  color: #000;
+  text-decoration: underline;
 }
 
 .project-content {

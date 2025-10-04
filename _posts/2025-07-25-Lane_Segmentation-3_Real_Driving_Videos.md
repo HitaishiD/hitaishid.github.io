@@ -145,5 +145,3 @@ This is the inference speed of the model, i.e., the average time taken for the m
 The FPS of the original videos is 30. The end-to-end FPS is on average 51.8 while the mean inference time is 0.01 s. This means that the model generates a segmentation for each frame in just 1 ms and the full processing pipeline runs faster than the original video frame rate on the GPU used.
 
 This shows that the DeepLabV3+ model is highly performant on the NVIDIA RTX 4090 GPU, motivating its usage for real-time applications. 
-
-## Takeaways/Next Steps
