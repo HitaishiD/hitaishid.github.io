@@ -25,8 +25,8 @@ layout: default
 
 
 <div class="projects">
-  {% assign grouped = site.posts | group_by: "category" | reversed %}
-  {% for group in grouped %}
+  {% assign grouped = site.posts | group_by: "category" %}
+  {% for group in grouped reversed %}
     {% assign project = site.data.projects.projects | where: "name", group.name | first %}
     <div class="project" id="{{ group.name | slugify }}">
       <h2 class="project-title">
