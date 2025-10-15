@@ -1,5 +1,5 @@
 projects:
-  - name: "Study-Buddy"
+  - name: "Study_Buddy"
     image: "/images/study-buddy/webapp_diagram.png"
 
   - name: "A_Study_on_the_Trade-offs_Between_Performance,_Robustness_and_Efficiency_of_Computer_Vision_Systems"
