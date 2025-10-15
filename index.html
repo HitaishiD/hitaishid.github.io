@@ -25,7 +25,7 @@ layout: default
 
 
 <div class="projects">
-  {% assign grouped = site.posts | group_by: "category" %}
+  {% assign grouped = site.posts | group_by: "category" | reversed %}
   {% for group in grouped %}
     {% assign project = site.data.projects.projects | where: "name", group.name | first %}
     <div class="project" id="{{ group.name | slugify }}">
