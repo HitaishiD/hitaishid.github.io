@@ -31,7 +31,7 @@ layout: default
     <div class="project" id="{{ group.name | slugify }}">
       <h2 class="project-title">
         <a href="{{ site.url }}/#{{ group.name | slugify }}" class="project-link">
-          {{ group.name | replace: "-", " " | capitalize }}
+          {{ group.name | replace: "_", " " | capitalize }}
         </a>
       </h2>
       <div class="project-content">

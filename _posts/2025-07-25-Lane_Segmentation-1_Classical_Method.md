@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Part 1 Lane Segmentation with Classical Image Processing Techniques
-category: Lane-Segmentation
+category: A_Study_on_the_Trade-offs_Between_Performance,_Robustness_and_Efficiency_of_Computer_Vision_Systems
 ---
 
 ## Introduction
