@@ -2,5 +2,5 @@ projects:
   - name: "Study-Buddy"
     image: "/images/study-buddy/webapp_diagram.png"
 
-  - name: "Lane-Segmentation"
+  - name: "A_Study_on_the_Trade-offs_Between_Performance,_Robustness_and_Efficiency_of_Computer_Vision_Systems"
     image: "/images/lane-segmentation/lane_seg_recap.png"

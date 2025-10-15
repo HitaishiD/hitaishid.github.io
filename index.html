@@ -37,7 +37,7 @@ layout: default
       <div class="project-content">
         {% if project.image %}
           <div class="project-image">
-            <img src="{{ project.image }}" alt="{{ group.name | replace: "-", " " | capitalize }}">
+            <img src="{{ project.image }}" alt="{{ group.name | replace: "_", " " | capitalize }}">
           </div>
         {% endif %}
 

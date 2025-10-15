@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AI Study Buddy Overview
-category: Study-Buddy
+category: Study_Buddy
 ---
 
 ## Overview
