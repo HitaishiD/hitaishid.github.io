@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Part 3 Calculating Driver Score
+title: Part 4 Calculating Driver Score
 category: Real-time_Driver_Scoring_with_Lane_Segmentation
 ---
 
@@ -34,7 +34,8 @@ road center point < vehicle center point < road right boundary → vehicle is in
 
 Using the in-lane and out-of-lane data extracted, we calculate the driver score using the equation below: 
 
-$Driver Score Behavior = \frac{Time out of lane}{Total time of journey} * 100$
+$$Driver Score Behavior = \frac{Time out of lane}{Total time of journey} * 100$$
+
 
 ## Deployment
 This system can be deployed using a dashcam to capture real-time video, which feeds into a Jetson device for making predictions based on our trained model.
