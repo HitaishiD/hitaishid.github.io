@@ -23,12 +23,12 @@ road center point < vehicle center point < road right boundary → vehicle is in
 
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
   <div style="flex: 1 1 45%; aspect-ratio: 16 / 9;">
-    <iframe src="https://www.youtube.com/embed/3P5XXG6ks5SQ?autoplay=1&loop=1&playlist=3bZ3VLXlB3o&mute=1&controls=0&modestbranding=1&rel=0"
+    <iframe src="https://www.youtube.com/embed/3P5XXG6ks5SQ?autoplay=1&loop=1&playlist=3P5XXG6ks5SQ&mute=1&controls=0&modestbranding=1&rel=0"
             style="width: 100%; height: 100%;"
             frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </div>
   <div style="flex: 1 1 45%; aspect-ratio: 16 / 9;">
-    <iframe src="https://www.youtube.com/embed/U-eZoy9vz1Q?autoplay=1&loop=1&playlist=GnsajjIjw1Y&mute=1&controls=0&modestbranding=1&rel=0"
+    <iframe src="https://www.youtube.com/embed/U-eZoy9vz1Q?autoplay=1&loop=1&playlist=U-eZoy9vz1Q&mute=1&controls=0&modestbranding=1&rel=0"
             style="width: 100%; height: 100%;"
             frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
