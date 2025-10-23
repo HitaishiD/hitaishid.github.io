@@ -23,7 +23,7 @@ road center point < vehicle center point < road right boundary → vehicle is in
 
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
   <div style="flex: 1 1 45%; aspect-ratio: 16 / 9;">
-    <iframe src="https://www.youtube.com/embed/3P5XXG6ks5SQ?autoplay=1&loop=1&playlist=3P5XXG6ks5SQ&mute=1&controls=0&modestbranding=1&rel=0"
+    <iframe src="https://www.youtube.com/embed/P5XXG6ks5SQ?autoplay=1&loop=1&playlist=P5XXG6ks5SQ&mute=1&controls=0&modestbranding=1&rel=0"
             style="width: 100%; height: 100%;"
             frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </div>
@@ -34,7 +34,9 @@ road center point < vehicle center point < road right boundary → vehicle is in
 
 Using the in-lane and out-of-lane data extracted, we calculate the driver score using the equation below: 
 
-$$Driver Score Behavior = \frac{Time out of lane}{Total time of journey} * 100$$
+$$
+Driver\ Score\ Behavior = \frac{Time\ out\ of\ lane}{Total\ time\ of\ journey} \times 100
+$$
 
 
 ## Deployment
@@ -44,5 +46,5 @@ This system can be deployed using a dashcam to capture real-time video, which fe
 There are a few key areas where the system can be enhanced:
 
 * Lane Segmentation: Currently, the lane area is treated as a single entity. Segmenting it into two separate lanes would improve detection accuracy.
-
 * Score Calculation: Including weights in the score calculation could make predictions more reliable and reflective of real-world conditions, for example, when the speed of the vehicle is high, the time taken for an overtake is lower and the score must be improved to reflect this increased risk.
+
